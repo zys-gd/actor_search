@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+    api:
+        build: .
+        container_name: actor_search_api
+        restart: on-failure
+        volumes:
+            - ./app/:/app
+        working_dir: /app
+        user: node
+        ports:
+            - "3000:3000"
+        command: npm run start:dev

@@ -1,0 +1,22 @@
+# Editor directories and files
+.idea
+/docker-compose.override.yml
+
+# compiled output
+/app/dist
+/app/node_modules
+
+# Logs
+/applogs
+/app*.log
+/appnpm-debug.log*
+/appyarn-debug.log*
+/appyarn-error.log*
+/applerna-debug.log*
+
+# OS
+/app.DS_Store
+
+# Tests
+/app/coverage
+/app/.nyc_output
